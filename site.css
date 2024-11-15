@@ -1,0 +1,69 @@
+html, body {
+    min-height:100%;
+    height: 99%
+}
+
+@font-face
+{
+    font-family:'Arial Black';
+    src:url('assets/fonts/ARIBLK.TTF') format('truetype');
+}
+
+@media (min-width: 750px)
+{
+    body {
+        font-family: 'Arial Black';
+        background-color: black;
+        background-image: url("./assets/diamond_transblack.png");
+        background-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        font-family: 'Arial Black';
+        background-color: black;
+        background-image: url("./assets/diamond_transblack.png");
+        background-size: 150%;
+    }
+  }
+
+@media (min-width: 750px)
+{
+    .main{
+        position: relative;
+        top: 15%;
+        display: block;
+        margin:0 auto;
+        font-family: url("./assets/fonts/ARIBLK.TTF");
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .main{
+        position: relative;
+        top: 35%;
+        display: block;
+        margin:0 auto;
+        font-family: url("./assets/fonts/ARIBLK.TTF");
+        color: white;
+    }
+  }
+
+@media (min-width: 750px)
+{
+    img {
+        width: 35%;
+        margin:0 auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    img {
+        width: 70%;
+        margin:0 auto;
+        display: block;
+    }
+}
