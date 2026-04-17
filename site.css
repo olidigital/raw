@@ -22,7 +22,6 @@ html, body {
     body {
         font-family: 'Arial Black';
         background-color: black;
-        background-image: url("./assets/diamond_transblack.png");
         background-size: 150%;
     }
   }
